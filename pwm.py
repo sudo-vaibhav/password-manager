@@ -24,13 +24,6 @@ def load_dict_from_file():
 
 
 print("you just ran "+sys.argv[0]+" file in python3")
-#
-# try:
-# 	passwords=load_dict_from_file()
-# 	print("passwords file loaded successfully")
-# except:
-# 	passwords={}
-# 	print("new passwords file had to be created")
 
 passwords = load_dict_from_file()
 
